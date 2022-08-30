@@ -9,6 +9,7 @@ import ravenclaw from "./assets/ravenclaw.png";
 import { useState } from "react";
 
 function App() {
+  console.log(sortinghat);
   const [playButtonClicked, setPlayButtonClicked] = useState(false);
   return (
     <div className="">

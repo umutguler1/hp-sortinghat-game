@@ -34,7 +34,7 @@ const CharactersHouses = () => {
     const fetchPosts = async () => {
       const response = await axios({
         method: "get",
-        url: "http://hp-api.herokuapp.com/api/characters",
+        url: "https://hp-api.herokuapp.com/api/characters",
       });
       const first61 = response.data.filter((c) => c.house !== "").slice(0, 61);
       setCharImages(first61); // setting the images manually as if they come from the api.

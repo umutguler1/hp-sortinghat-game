@@ -18,6 +18,10 @@ You may also see any lint errors in the console.
 
 This project is a game from the famous movie-book series of "Harry Potter". The "houses" of each character is guessed (or selected) from the 4 options, and the total score is displayed on the screen. A random of 15 characters are chosen from an array of 61 characters. To the end, the guessings become more difficult as the characters are sorted according to their popularity. The information about the houses of the characters are fetched with HTTP requests to https://hp-api.herokuapp.com/. The images are added manually to the fetched data, then, the same logic proceeded as if the images are coming from the api.
 
+## URL
+
+The project is deployed using Netlify. URL: https://hp-sortinghat-game.netlify.app/
+
 ## Styling
 
 All the styling is done using Tailwind CSS.
